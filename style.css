@@ -63,6 +63,7 @@
   
 }
 
+
 /* BLOCCO STEPS */
 #steps .row>.left,
 #steps .row>.central,
@@ -74,6 +75,27 @@
 #steps {
   text-align: center;
 }
+
+/* media query blocco steps */
+@media screen and (max-width: 420px) {
+  
+  #steps .row h1{
+    padding-top: 20px;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    float: none;
+    width: 100%;
+  }
+
+  #steps .row>.central,
+  #steps .row>.right{
+    margin-top: 25px;
+  }
+
+}
+
 
 /* BLOCCO PERCHE */
 #why {
