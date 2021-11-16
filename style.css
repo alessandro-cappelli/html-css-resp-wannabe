@@ -94,6 +94,9 @@
     margin-top: 25px;
   }
 
+  #steps .row>.right{
+    margin-bottom: 15px;
+  }
 }
 
 
@@ -132,4 +135,28 @@ img {
 
 .clear {
   clear: both;
+}
+
+/* media query blocco perchè */
+@media screen and (max-width: 420px){
+
+  #why .row h1{
+    padding-top: 10px;
+  }
+  #why{
+    background-color: #F2F2CD;
+  }
+
+  #why .row>.first{
+    margin-top: 25px;
+  }
+
+  #why .row>.second,
+  #why .row>.third{
+    margin-top: 40px;
+  }
+
+  #why .row>.third{
+    margin-bottom: 15px;
+  }
 }
