@@ -36,8 +36,13 @@
     background-color: #F2F2CD;
   }
 
+  #lezioni .row img, #steps .row img,
+  #why .row img{
+    height: 100px;
+  }
+
   .row{
-    width: 420px;
+    width: 100%;
     margin-top: 0px;
     /* text-align: center; */
   }
